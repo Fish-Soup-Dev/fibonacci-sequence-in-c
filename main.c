@@ -30,7 +30,7 @@ int main () {
 
     clock_t end = clock();
     double time_spent = (double)(end - start) / CLOCKS_PER_SEC;
-    printf("\033[0;94mIt took \033[0;31m%.3f\033[0;94m seconds.\nFound \033[0;32m%i\033[0;94m Fibonacci Sequence\033[0m", time_spent, c);
+    printf("\033[0;94mIt took \033[0;31m%.3f\033[0;94m seconds.\nFound \033[0;32m%i\033[0;94m Numbers in the Fibonacci Sequence\033[0m", time_spent, c);
 
     return 0;
 }
