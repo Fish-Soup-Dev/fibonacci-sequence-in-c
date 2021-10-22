@@ -1,6 +1,5 @@
 #include <time.h>
 #include <stdio.h>
-#include <stdint.h>
 #define MAX 40
 
 int main () {
